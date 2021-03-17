@@ -1,0 +1,54 @@
+// TODO: username within parentheses
+
+:is(html.dark)
+	:is(span.username.txt-mute::before, a.js-other-replies-link.other-replies-link::before, span.username::before) {
+	content: "(";
+	color: $orange !important;
+}
+
+:is(html.dark)
+	:is(span.username.txt-mute::after, a.js-other-replies-link.other-replies-link::after, span.username::after) {
+	content: ")";
+	color: $orange !important;
+}
+
+// TODO: format user card
+
+html.dark {
+	// ** avatar */
+
+	.avatar {
+		border-radius: 3.125rem !important;
+	}
+	// ** image header
+
+	.account-profile-header {
+		opacity: 0rem !important;
+	}
+
+	div.prf-header {
+		background-size: 0rem !important;
+	}
+
+	// ** profile card width
+
+	div.width-p--85.margin-a-auto.position-rel.padding-b--20 {
+		width: 100% !important;
+	}
+
+	// ** div bar of card
+
+	div.prf-header-inner-overlay {
+		background-color: $purple !important;
+	}
+	ul.lst-profile.cf li.js-item-launch {
+		height: 4.375rem !important;
+	}
+}
+
+// TODO: tweet card
+
+html.dark p.js-tweet-text.tweet-text.with-linebreaks {
+	padding-top: 0.125rem !important;
+	width: 90% !important;
+}

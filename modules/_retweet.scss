@@ -1,0 +1,33 @@
+// TODO: retweet window
+
+html.dark {
+	button.js-action-button.btn.btn-on-dark.margin-r--8 {
+		color: $purple !important;
+		font-weight: 500;
+		&:hover {
+			color: $pink !important;
+		}
+	}
+
+	button.js-action-button.js-retweet-button.Button--primary {
+		color: $green !important;
+		font-weight: 500;
+		&:hover,
+		a.txt-size-variable--12.no-wrap {
+			color: $cyan !important;
+		}
+	}
+}
+
+// TODO: retweet box
+
+html.dark
+	div.js-quote-tweet-holder.padding-a--10.bg-color-twitter-white.is-inverted-dark.margin-t---4.br-bottom--4 {
+	background-color: $background !important;
+	cursor: pointer !important;
+}
+
+:is(html.dark)
+	:is(a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable, a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable) {
+	cursor: pointer !important;
+}

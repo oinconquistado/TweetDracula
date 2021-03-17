@@ -1,0 +1,13 @@
+:root * {
+	//** define font
+
+	font-family: $roboto;
+	font-weight: $normalfont;
+}
+
+header *,
+body * {
+	background-color: $background !important;
+	color: $foreground !important;
+	border: 0.0625rem $purple-border !important;
+}

@@ -1,0 +1,6 @@
+/* personalize scrollbar */
+
+body * {
+	scrollbar-color: $background !important;
+	scrollbar-width: thin !important;
+}

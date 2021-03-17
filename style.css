@@ -1,0 +1,174 @@
+@import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@300&display=swap";
+:root * {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+header *,
+body * {
+    background-color: #282a36 !important;
+    color: #f8f8f2 !important;
+    border: 0.0625rem #d9c2fa !important;
+}
+body * {
+    scrollbar-color: #282a36 !important;
+    scrollbar-width: thin !important;
+}
+html.dark :is(a, .link-complex-target) {
+    color: #bd93f9 !important;
+    text-decoration: none !important;
+}
+html.dark :is(a, .link-complex-target):hover {
+    color: #8be9fd !important;
+    text-decoration: none !important;
+}
+html.dark
+    :is(.link-complex:focus .link-complex-target, .link-complex:hover
+        .link-complex-target, div.other-replies.txt-ellipsis) {
+    color: #ff79c6 !important;
+    text-decoration: none !important;
+}
+html.dark
+    :is(.account-inline
+        .fullname, b.fullname.inline-block.link-complex-target.position-rel.txt-ellipsis, span.link-complex-target.txt-ellipsis) {
+    color: #50fa7b !important;
+}
+html.dark
+    :is(.account-inline
+        .username, span.username.txt-mute, a.js-other-replies-link.other-replies-link) {
+    color: #ffb86c !important;
+}
+:is(html.dark)
+    :is(span.username.txt-mute::before, a.js-other-replies-link.other-replies-link::before, span.username::before) {
+    content: "(";
+    color: #ffb86c !important;
+}
+:is(html.dark)
+    :is(span.username.txt-mute::after, a.js-other-replies-link.other-replies-link::after, span.username::after) {
+    content: ")";
+    color: #ffb86c !important;
+}
+html.dark .avatar {
+    border-radius: 3.125rem !important;
+}
+html.dark .account-profile-header {
+    opacity: 0rem !important;
+}
+html.dark div.prf-header {
+    background-size: 0rem !important;
+}
+html.dark div.width-p--85.margin-a-auto.position-rel.padding-b--20 {
+    width: 100% !important;
+}
+html.dark div.prf-header-inner-overlay {
+    background-color: #bd93f9 !important;
+}
+html.dark ul.lst-profile.cf li.js-item-launch {
+    height: 4.375rem !important;
+}
+html.dark p.js-tweet-text.tweet-text.with-linebreaks {
+    padding-top: 0.125rem !important;
+    width: 90% !important;
+}
+html.dark :is(.numbered-badge-onheader, .numbered-badge-onnav) {
+    background-color: #bd93f9 !important;
+    color: #f8f8f2 !important;
+    border: 0.0625rem solid #bd93f9 !important;
+}
+html.dark div.margin-tl.txt-mute.txt-size-variable--12 a:first-child {
+    color: #f1fa8c !important;
+}
+html.dark div.margin-tl.txt-mute.txt-size-variable--12 a:last-child {
+    color: #8be9fd !important;
+}
+html.dark a.js-open-analytics.js-show-tip.full-width span {
+    color: #b8b8b8 !important;
+}
+html.dark #caldays > span {
+    color: #bd93f9 !important;
+    font-weight: bold;
+}
+html.dark #calweeks * {
+    color: #f1fa8c !important;
+}
+html.dark a.caldisabled {
+    background-color: #44475a !important;
+}
+:is(html.dark) :is(#scheduled-hour, #scheduled-minute, #amPm) {
+    color: #f8f8f2 !important;
+}
+html.dark button.js-action-button.btn.btn-on-dark.margin-r--8 {
+    color: #bd93f9 !important;
+    font-weight: 500;
+}
+html.dark button.js-action-button.btn.btn-on-dark.margin-r--8:hover {
+    color: #ff79c6 !important;
+}
+html.dark button.js-action-button.js-retweet-button.Button--primary {
+    color: #50fa7b !important;
+    font-weight: 500;
+}
+html.dark button.js-action-button.js-retweet-button.Button--primary:hover,
+html.dark
+    button.js-action-button.js-retweet-button.Button--primary
+    a.txt-size-variable--12.no-wrap {
+    color: #8be9fd !important;
+}
+html.dark
+    div.js-quote-tweet-holder.padding-a--10.bg-color-twitter-white.is-inverted-dark.margin-t---4.br-bottom--4 {
+    background-color: #282a36 !important;
+    cursor: pointer !important;
+}
+:is(html.dark)
+    :is(a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable, a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable) {
+    cursor: pointer !important;
+}
+:is(html.dark) :is(.focus, input:focus, select:focus, textarea:focus) {
+    border-color: #f8f8f2 !important;
+    color: #f8f8f2 !important;
+    box-shadow: inset 0 0.0625rem 0.1875rem #f8f8f2, 0 0 0.5rem #f8f8f2;
+}
+:is(html.dark) :is(.rpl textarea::placeholder) {
+    color: var(--foreground) !important;
+}
+:is(html.dark) .scroll-alt::-webkit-scrollbar-track {
+    border: 0rem !important;
+}
+html.dark div.js-tweet.tweet {
+    margin: 0.125rem 0 !important;
+}
+html.dark ul.js-tweet-actions.tweet-actions.full-width {
+    padding-top: 0.3125rem !important;
+}
+html.dark .gap-chirp:after {
+    opacity: 0 !important;
+}
+html.dark div.js-stream-item-content.item-box.js-expand-gap.padding-v--18,
+html.dark html.dark div.gap-chirp-text.padding-v--4.padding-h--16 {
+    background-color: var(--selection) !important;
+}
+html.dark article.stream-item.js-stream-item.is-draggable.is-actionable {
+    margin: 0.1875rem 0rem !important;
+}
+html.dark a.js-gif-pause.is-actionable.gif-pause {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+html.dark .video-overlay {
+    line-height: 0.8 !important;
+}
+html.dark .icon-twitter-blue-color {
+    color: var #bd93f9 !important;
+}
+html.dark
+    div.js-preferences-summary.facet-subtitle.padding-t--3.padding-r--12.padding-l--36.nbfc {
+    color: #f1fa8c !important;
+}
+:is(html.dark)
+    :is(.icon.icon-play-video, i.video-overlay.icon-with-bg-round, i.icon.icon-bg-dot.icon-twitter-blue-color, div.video-overlay.icon-with-bg-round) {
+    background-color: rgba(0, 0, 0, 0) !important;
+    cursor: pointer !important;
+}
+:is(html.dark)
+    :is(.media-size-small, a.js-media-image-link.block.med-link.media-item.media-size-small.is-zoomable) {
+    width: 100% !important;
+    height: 9.375rem !important;
+} /*# sourceMappingURL=style.css.map */

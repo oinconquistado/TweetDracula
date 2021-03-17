@@ -1,0 +1,16 @@
+html.dark {
+	#caldays > span {
+		color: $purple !important;
+		font-weight: bold;
+	}
+	#calweeks * {
+		color: $yellow !important;
+	}
+	a.caldisabled {
+		background-color: $selection !important;
+	}
+}
+
+:is(html.dark) :is(#scheduled-hour, #scheduled-minute, #amPm) {
+	color: $foreground !important;
+}
