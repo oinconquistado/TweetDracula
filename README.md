@@ -19,5 +19,3 @@ Or
 Preview:
 
 ![TweetDracula](./images/preview.jpeg)
-
-Browser: Vivaldi with Dracula Theme.
