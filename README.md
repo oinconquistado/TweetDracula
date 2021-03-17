@@ -18,6 +18,6 @@ Or
 
 Preview:
 
-![TweetDracula](./images/preview.png)
+![TweetDracula](./images/preview.jpeg)
 
 Browser: Vivaldi with Dracula Theme.
