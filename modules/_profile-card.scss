@@ -1,0 +1,26 @@
+/* profile card */
+
+html.dark {
+	button.js-action-profile.action-text.thats-you-text.btn-on-dark {
+		color: var(--purple) !important;
+		&:hover {
+			color: var(--red) !important;
+		}
+	}
+	ul.prf-stats li a strong {
+		color: var(--cyan) !important;
+	}
+	.prf .lst-profile a:hover i {
+		color: var(--yellow) !important;
+	}
+	i.Icon.icon-more {
+		color: var(--pink) !important;
+	}
+
+	button.btn-on-dark {
+		&:focus {
+			box-shadow: 0 0 0 0.125rem #10171e,
+				0 0 0 0.25rem var(--purple-border) !important;
+		}
+	}
+}

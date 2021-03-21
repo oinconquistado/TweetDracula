@@ -1,15 +1,18 @@
 // TODO: username within parentheses
 
-:is(html.dark)
-	:is(span.username.txt-mute::before, a.js-other-replies-link.other-replies-link::before, span.username::before) {
-	content: "(";
-	color: $orange !important;
-}
-
-:is(html.dark)
-	:is(span.username.txt-mute::after, a.js-other-replies-link.other-replies-link::after, span.username::after) {
-	content: ")";
-	color: $orange !important;
+html.dark {
+	span.username.txt-mute::before,
+	a.js-other-replies-link.other-replies-link::before,
+	span.username::before {
+		content: "(";
+		color: $orange !important;
+	}
+	span.username.txt-mute::after,
+	a.js-other-replies-link.other-replies-link::after,
+	span.username::after {
+		content: ")";
+		color: $orange !important;
+	}
 }
 
 // TODO: format user card
@@ -51,4 +54,18 @@ html.dark {
 html.dark p.js-tweet-text.tweet-text.with-linebreaks {
 	padding-top: 0.125rem !important;
 	width: 90% !important;
+}
+
+/* response padding */
+
+html.dark {
+	div.other-replies.txt-ellipsis {
+		padding-bottom: 0.625rem !important;
+	}
+	.item-box-full-bleed {
+		margin: 0 0rem 1.25rem !important;
+	}
+	div.js-app-columns.app-columns.horizontal-flow-container.without-tweet-drag-handles:nth-child(3) {
+		color: var(--green) !important;
+	}
 }

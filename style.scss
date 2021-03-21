@@ -2,12 +2,19 @@
 
 @import "./modules/variables";
 @import "./modules/base";
-@import "./modules/firefox";
-@import "./modules/links";
 @import "./modules/modifications";
-@import "./modules/notifications";
+@import "./modules/tweet-card";
+@import "./modules/sidebar";
+@import "./modules/icons";
+@import "./modules/compose";
 @import "./modules/calendar";
-@import "./modules/retweet";
-@import "./modules/directmessage";
+@import "./modules/quotedtweet";
+@import "./modules/links";
+@import "./modules/notifications";
 @import "./modules/video";
 @import "./modules/media";
+@import "./modules/retweet";
+@import "./modules/firefox";
+@import "./modules/directmessage";
+@import "./modules/config";
+@import "./modules/profile-card";

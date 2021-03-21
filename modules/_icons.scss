@@ -1,0 +1,40 @@
+/* tweet card icons */
+
+html.dark {
+	footer ul {
+		padding: 0.625rem !important;
+		* i {
+			color: var(--gray) !important;
+		}
+
+		li {
+			a,
+			a i,
+			a span {
+				color: inherit !important;
+			}
+			&:nth-child(1) {
+				&:hover,
+				.js-tweet-actions.tweet-actions.full-width.is-visible,
+				i.icon.icon-more.txt-right:hover {
+					color: var(--cyan) !important;
+				}
+			}
+			&:nth-child(2) {
+				&:hover,
+				&:nth-child(2) a {
+					span: active;
+					i.js-icon-retweet.icon.icon-retweet-toggle.txt-center.pull-left.icon-retweet-filled {
+						color: var(--green) !important;
+					}
+				}
+			}
+			&:nth-child(3) {
+				&:hover,
+				a[title^="Unlike"] {
+					color: var(--purple) !important;
+				}
+			}
+		}
+	}
+}

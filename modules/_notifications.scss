@@ -9,11 +9,13 @@ html.dark :is(.numbered-badge-onheader, .numbered-badge-onnav) {
 // TODO: details notifications
 
 html.dark {
-	div.margin-tl.txt-mute.txt-size-variable--12 a:first-child {
-		color: $yellow !important;
-	}
-	div.margin-tl.txt-mute.txt-size-variable--12 a:last-child {
-		color: $cyan !important;
+	div.margin-tl.txt-mute.txt-size-variable--12 a {
+		&:first-child {
+			color: $yellow !important;
+		}
+		&:last-child {
+			color: $cyan !important;
+		}
 	}
 	a.js-open-analytics.js-show-tip.full-width span {
 		color: $gray !important;

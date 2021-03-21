@@ -35,3 +35,28 @@ html.dark {
 		color: $orange !important;
 	}
 }
+
+html.dark {
+	span.username {
+		color: var(--orange) !important;
+		font-weight: normal;
+	}
+	span.username * {
+		color: inherit !important;
+	}
+	a.link-complex {
+		color: var(--purple) !important;
+	}
+	a.link-complex:hover {
+		color: var(--pink) !important;
+	}
+	a.link-complex * {
+		color: inherit !important;
+	}
+
+	/* show this thread */
+
+	p.margin-t--4.margin-b---3.txt-mute {
+		color: var(--yellow) !important;
+	}
+}

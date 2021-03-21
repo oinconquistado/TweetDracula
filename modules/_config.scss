@@ -1,0 +1,16 @@
+// *! ícones das configurações
+
+html.dark {
+	i.js-streaming-updates.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
+	i.js-show-startup-notifications.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
+	i.js-display-sensitive-media.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
+	i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off {
+		color: var(--red) !important;
+	}
+	i.js-streaming-updates.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
+	i.js-show-startup-notifications.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
+	i.js-display-sensitive-media.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
+	i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on {
+		color: var(--cyan) !important;
+	}
+}
