@@ -6,10 +6,10 @@
 }
 
 html.dark {
-	header *,
+	header,
 	body * {
 		background-color: $background !important;
-		color: $foreground !important;
+		color: $foreground;
 		border: 0.0625rem $purple-border !important;
 	}
 

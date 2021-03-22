@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           tweetDracula
+@name           TweetDracula
 @namespace      github.com/oinconquistado/TweetDracula
 @version        1.1.0
 @description    Dracula Theme for Tweetdeck
@@ -23,7 +23,6 @@
 		--red: #ff5555;
 		--yellow: #f1fa8c;
 		--gray: #b8b8b8;
-
 		/* font family */
 		font-family: "Roboto", sans-serif !important;
 		font-weight: 300 !important;
