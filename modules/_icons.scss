@@ -1,13 +1,15 @@
-a[rel="reply"]:hover > *,
-.is-selected > * {
-	color: #8be9fd !important;
-}
-a[rel="retweet"]:hover > *,
-.icon-retweet-filled {
-	color: #50fa7b !important;
-}
-a[rel="favorite"]:hover > *,
-a[title^="Unlike"] *,
-a > .heartsprite.heart-anim {
-	color: #f55 !important;
+html.dark {
+	a[rel="reply"]:hover > *,
+	.is-selected > * {
+		color: #8be9fd !important;
+	}
+	a[rel="retweet"]:hover > *,
+	.icon-retweet-filled {
+		color: #50fa7b !important;
+	}
+	a[rel="favorite"]:hover > *,
+	a[title^="Unlike"] *,
+	a > .heartsprite.heart-anim {
+		color: #f55 !important;
+	}
 }

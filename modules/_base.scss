@@ -12,10 +12,4 @@ html.dark {
 		color: $foreground;
 		border: 0.0625rem $purple-border !important;
 	}
-
-	// *! container
-
-	div.mdl-content.js-mdl-content.horizontal-flow-container {
-		margin-top: 0.3125rem !important;
-	}
 }

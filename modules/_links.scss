@@ -21,29 +21,29 @@ html.dark {
 		text-decoration: none !important;
 	}
 
-	// TODO: green link outside the message window (timeline, notifications, trendings, user column, etc.).
+	/* green link outside the message window (timeline, notifications, trendings, users in the conversation, user column etc.). */
 
-	:is(.account-inline
-			.fullname, b.fullname.inline-block.link-complex-target.position-rel.txt-ellipsis, span.link-complex-target.txt-ellipsis) {
+	.other-replies-link,
+	.txt-ellipsis,
+	.account-inline .fullname {
 		color: $green !important;
+		&:hover {
+			color: inherit !important;
+		}
 	}
 
-	// TODO:  orange color of username
+	/* orange color of username */
 
-	:is(.account-inline
-			.username, span.username.txt-mute, a.js-other-replies-link.other-replies-link) {
+	.account-inline .username {
 		color: $orange !important;
+		font-weight: normal;
+		* {
+			color: inherit !important;
+		}
 	}
 }
 
 html.dark {
-	span.username {
-		color: var(--orange) !important;
-		font-weight: normal;
-	}
-	span.username * {
-		color: inherit !important;
-	}
 	a.link-complex {
 		color: var(--purple) !important;
 	}
