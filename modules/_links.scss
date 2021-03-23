@@ -1,62 +1,43 @@
 html.dark {
-	// TODO: purple link
-
-	:is(a, .link-complex-target) {
-		color: $purple !important;
-		text-decoration: none !important;
-
-		// TODO: blue on hover links
-
-		&:hover {
-			color: $cyan !important;
-			text-decoration: none !important;
-		}
-	}
-
-	// TODO: "Replying to" string and DM username color
-
-	:is(.link-complex:focus .link-complex-target, .link-complex:hover
-			.link-complex-target, div.other-replies.txt-ellipsis) {
-		color: $pink !important;
+	/* all links */
+	a,
+	a *,
+	a > * {
 		text-decoration: none !important;
 	}
-
-	/* green link outside the message window (timeline, notifications, trendings, users in the conversation, user column etc.). */
-
-	.other-replies-link,
-	.txt-ellipsis,
+	/* name color */
 	.account-inline .fullname {
 		color: $green !important;
-		&:hover {
-			color: inherit !important;
-		}
 	}
-
-	/* orange color of username */
-
+	/*  username color */
 	.account-inline .username {
 		color: $orange !important;
-		font-weight: normal;
-		* {
-			color: inherit !important;
+		&:hover {
+			color: cyan !important;
 		}
 	}
-}
-
-html.dark {
-	a.link-complex {
-		color: var(--purple) !important;
+	/* user has retweeted */
+	.nbfc {
+		a {
+			color: $purple !important;
+			&:hover {
+				color: $pink !important;
+			}
+		}
 	}
-	a.link-complex:hover {
-		color: var(--pink) !important;
+	/* "Replying to" text */
+	.other-replies.txt-ellipsis {
+		color: $pink !important;
 	}
-	a.link-complex * {
-		color: inherit !important;
+	/* "Replying to" users */
+	.other-replies.txt-ellipsis > a {
+		color: $orange !important;
+		&:hover {
+			color: $cyan !important;
+		}
 	}
-
-	/* show this thread */
-
-	p.margin-t--4.margin-b---3.txt-mute {
-		color: var(--yellow) !important;
+	/* green text */
+	.link-complex-target {
+		color: $green !important;
 	}
 }
