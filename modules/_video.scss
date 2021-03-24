@@ -12,7 +12,7 @@ html.dark {
 	}
 	div.js-stream-item-content.item-box.js-expand-gap.padding-v--18,
 	html.dark div.gap-chirp-text.padding-v--4.padding-h--16 {
-		background-color: var(--selection) !important;
+		background-color: $selection !important;
 	}
 	article.stream-item.js-stream-item.is-draggable.is-actionable {
 		margin: 0.1875rem 0rem !important;

@@ -45,10 +45,10 @@ html.dark {
 
 html.dark {
 	a.link-complex {
-		color: var(--purple) !important;
+		color: $purple !important;
 	}
 	a.link-complex:hover {
-		color: var(--pink) !important;
+		color: $pink !important;
 	}
 	a.link-complex * {
 		color: inherit !important;
@@ -57,6 +57,6 @@ html.dark {
 	/* show this thread */
 
 	p.margin-t--4.margin-b---3.txt-mute {
-		color: var(--yellow) !important;
+		color: $yellow !important;
 	}
 }

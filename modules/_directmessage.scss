@@ -10,7 +10,7 @@
 	}
 	//** Placeholder for DM
 	:is(.rpl textarea::placeholder) {
-		color: var(--foreground) !important;
+		color: $foreground !important;
 	}
 
 	// ** remove insane border from textarea dm
