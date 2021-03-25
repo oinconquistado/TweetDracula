@@ -1,63 +1,74 @@
 html.dark {
-	// TODO: purple link
-
-	a .link-complex-target {
-		color: $purple !important;
+	/* all links */
+	a,
+	a *,
+	a > * {
 		text-decoration: none !important;
-
-		// TODO: blue on hover links
-
-		&:hover {
-			color: $cyan !important;
-			text-decoration: none !important;
-		}
+		font-weight: normal !important;
 	}
 
-	// TODO: "Replying to" string and DM username color
-
-	.link-complex:focus .link-complex-target,
-	.link-complex:hover .link-complex-target,
-	div.other-replies.txt-ellipsis {
-		color: $pink !important;
-		text-decoration: none !important;
+	ul.js-tweet-actions.tweet-actions.full-width > li > a > i,
+	ul.js-tweet-actions.tweet-actions.full-width > li > a > span {
+		color: $gray;
 	}
-
-	/* green link outside the message window (timeline, notifications, trendings, users in the conversation, user column etc.). */
-
-	.other-replies-link,
-	.txt-ellipsis,
+	/* name color */
 	.account-inline .fullname {
 		color: $green !important;
-		&:hover {
-			color: inherit !important;
-		}
 	}
-
-	/* orange color of username */
-
-	.account-inline .username {
+	/*  username color */
+	.account-inline .username,
+	.username.txt-mute {
 		color: $orange !important;
-		font-weight: normal;
-		* {
-			color: inherit !important;
+		&:hover {
+			color: cyan !important;
 		}
 	}
-}
-
-html.dark {
-	a.link-complex {
-		color: $purple !important;
+	/* user has retweeted */
+	.nbfc {
+		a {
+			color: $purple !important;
+			&:hover {
+				color: $pink !important;
+			}
+		}
 	}
-	a.link-complex:hover {
+	/* "Replying to" text */
+	.other-replies.txt-ellipsis,
+	/* translate tweet color */
+	.js-translate-call-to-action.txt-mute, {
 		color: $pink !important;
 	}
-	a.link-complex * {
-		color: inherit !important;
+	/* "Replying to" users */
+	.other-replies.txt-ellipsis > a {
+		color: $orange !important;
+		&:hover {
+			color: $cyan !important;
+		}
 	}
-
-	/* show this thread */
-
-	p.margin-t--4.margin-b---3.txt-mute {
-		color: $yellow !important;
+	/* green text */
+	.link-complex-target,
+	.link-complex > span,
+	span.column-heading {
+		color: $green !important;
+	}
+	/* time */
+	time > span {
+		color: $purple !important;
+		&:hover {
+			color: $cyan !important;
+		}
+	}
+	time > a {
+		color: $pink !important;
+		&:hover {
+			color: $orange !important;
+		}
+	}
+	/* external link */
+	.url-ext {
+		color: $purple !important;
+		&:hover {
+			color: $pink !important;
+		}
 	}
 }
