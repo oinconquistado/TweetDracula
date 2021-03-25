@@ -27,7 +27,9 @@ html.dark
 	cursor: pointer !important;
 }
 
-:is(html.dark)
-	:is(a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable, a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable) {
-	cursor: pointer !important;
+html.dark {
+	a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable,
+	a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable {
+		cursor: pointer !important;
+	}
 }

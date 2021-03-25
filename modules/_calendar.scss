@@ -11,6 +11,8 @@ html.dark {
 	}
 }
 
-:is(html.dark) :is(#scheduled-hour, #scheduled-minute, #amPm) {
+html.dark #scheduled-hour,
+#scheduled-minute,
+#amPm {
 	color: $foreground !important;
 }

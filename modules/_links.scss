@@ -1,7 +1,7 @@
 html.dark {
 	// TODO: purple link
 
-	:is(a, .link-complex-target) {
+	a .link-complex-target {
 		color: $purple !important;
 		text-decoration: none !important;
 
@@ -15,8 +15,9 @@ html.dark {
 
 	// TODO: "Replying to" string and DM username color
 
-	:is(.link-complex:focus .link-complex-target, .link-complex:hover
-			.link-complex-target, div.other-replies.txt-ellipsis) {
+	.link-complex:focus .link-complex-target,
+	.link-complex:hover .link-complex-target,
+	div.other-replies.txt-ellipsis {
 		color: $pink !important;
 		text-decoration: none !important;
 	}

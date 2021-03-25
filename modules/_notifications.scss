@@ -1,9 +1,12 @@
 // TODO: notification icon in the top bar and sidebar
 
-html.dark :is(.numbered-badge-onheader, .numbered-badge-onnav) {
-	background-color: $purple !important;
-	color: $foreground !important;
-	border: 0.0625rem solid $purple !important;
+html.dark {
+	.numbered-badge-onheader,
+	.numbered-badge-onnav {
+		background-color: $purple !important;
+		color: $foreground !important;
+		border: 0.0625rem solid $purple !important;
+	}
 }
 
 // TODO: details notifications

@@ -443,7 +443,7 @@
 	}
 
 	html.dark .gap-chirp:after {
-		opacity: 0 !important;
+		opacity: 0% !important;
 	}
 
 	html.dark div.js-stream-item-content.item-box.js-expand-gap.padding-v--18,
