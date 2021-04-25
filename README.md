@@ -17,4 +17,4 @@
 
 ### 🦇 Preview:
 
-[TweetDracula](./images/preview.jpeg)
+[TweetDracula](/images/preview.jpeg)
