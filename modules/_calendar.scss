@@ -1,18 +1,18 @@
 html.dark {
-	#caldays > span {
-		color: $purple !important;
-		font-weight: bold;
-	}
-	#calweeks * {
-		color: $yellow !important;
-	}
-	a.caldisabled {
-		background-color: $selection !important;
-	}
+  #caldays > span {
+    color: $purple !important;
+    font-weight: bold;
+  }
+  #calweeks * {
+    color: $yellow !important;
+  }
+  a.caldisabled {
+    background-color: $selection !important;
+  }
 }
 
 html.dark #scheduled-hour,
 #scheduled-minute,
 #amPm {
-	color: $foreground !important;
+  color: $foreground !important;
 }

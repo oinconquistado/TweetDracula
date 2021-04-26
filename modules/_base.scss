@@ -1,15 +1,15 @@
 :root * {
-	//** define font
+  //** define font
 
-	font-family: $roboto;
-	font-weight: $normalfont;
+  font-family: $roboto;
+  font-weight: $normalfont;
 }
 
 html.dark {
-	header,
-	body * {
-		background-color: $background !important;
-		color: $foreground;
-		border: 0.0625rem $purple-border !important;
-	}
+  header,
+  body * {
+    background-color: $background !important;
+    color: $foreground;
+    border: 0.0625rem $purple-border !important;
+  }
 }

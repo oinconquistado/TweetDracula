@@ -1,26 +1,26 @@
 // TODO: notification icon in the top bar and sidebar
 
 html.dark {
-	.numbered-badge-onheader,
-	.numbered-badge-onnav {
-		background-color: $purple !important;
-		color: $foreground !important;
-		border: 0.0625rem solid $purple !important;
-	}
+  .numbered-badge-onheader,
+  .numbered-badge-onnav {
+    background-color: $purple !important;
+    color: $foreground !important;
+    border: 0.0625rem solid $purple !important;
+  }
 }
 
 // TODO: details notifications
 
 html.dark {
-	div.margin-tl.txt-mute.txt-size-variable--12 a {
-		&:first-child {
-			color: $yellow !important;
-		}
-		&:last-child {
-			color: $cyan !important;
-		}
-	}
-	a.js-open-analytics.js-show-tip.full-width span {
-		color: $gray !important;
-	}
+  div.margin-tl.txt-mute.txt-size-variable--12 a {
+    &:first-child {
+      color: $yellow !important;
+    }
+    &:last-child {
+      color: $cyan !important;
+    }
+  }
+  a.js-open-analytics.js-show-tip.full-width span {
+    color: $gray !important;
+  }
 }

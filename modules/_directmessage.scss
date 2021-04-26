@@ -1,23 +1,22 @@
 // TODO:
 
 html.dark {
-	// ** gradient for DM box
-	.focus,
-	input:focus,
-	select:focus,
-	textarea:focus {
-		border-color: $foreground !important;
-		color: $foreground !important;
-		box-shadow: inset 0 0.0625rem 0.1875rem $foreground,
-			0 0 0.5rem $foreground;
-	}
-	//** Placeholder for DM
-	.rpl textarea::placeholder {
-		color: $foreground !important;
-	}
+  // ** gradient for DM box
+  .focus,
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: $foreground !important;
+    color: $foreground !important;
+    box-shadow: inset 0 0.0625rem 0.1875rem $foreground, 0 0 0.5rem $foreground;
+  }
+  //** Placeholder for DM
+  .rpl textarea::placeholder {
+    color: $foreground !important;
+  }
 
-	// ** remove insane border from textarea dm
-	.scroll-alt::-webkit-scrollbar-track {
-		border: 0rem !important;
-	}
+  // ** remove insane border from textarea dm
+  .scroll-alt::-webkit-scrollbar-track {
+    border: 0rem !important;
+  }
 }

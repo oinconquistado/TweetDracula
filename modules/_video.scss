@@ -1,48 +1,48 @@
 // TODO: video
 
 html.dark {
-	div.js-tweet.tweet {
-		margin: 0.125rem 0 !important;
-	}
-	ul.js-tweet-actions.tweet-actions.full-width {
-		padding-top: 0.3125rem !important;
-	}
-	.gap-chirp:after {
-		opacity: 0% !important;
-	}
-	div.js-stream-item-content.item-box.js-expand-gap.padding-v--18,
-	html.dark div.gap-chirp-text.padding-v--4.padding-h--16 {
-		background-color: $selection !important;
-	}
-	article.stream-item.js-stream-item.is-draggable.is-actionable {
-		margin: 0.1875rem 0rem !important;
-	}
-	// ** remove bg video icon
-	a.js-gif-pause.is-actionable.gif-pause {
-		background-color: rgba(0, 0, 0, 0) !important;
-	}
-	.video-overlay {
-		line-height: 0.8 !important;
-	}
-	.icon-twitter-blue-color {
-		color: $purple !important;
-	}
-	/*video icon */
-	i.icon.icon-play-video,
-	i.video-overlay.icon-with-bg-round,
-	i.icon.icon-bg-dot.icon-twitter-blue-color,
-	div.video-overlay.icon-with-bg-round {
-		background-color: rgba(0, 0, 0, 0) !important;
-		cursor: pointer !important;
-	}
+  div.js-tweet.tweet {
+    margin: 0.125rem 0 !important;
+  }
+  ul.js-tweet-actions.tweet-actions.full-width {
+    padding-top: 0.3125rem !important;
+  }
+  .gap-chirp:after {
+    opacity: 0% !important;
+  }
+  div.js-stream-item-content.item-box.js-expand-gap.padding-v--18,
+  html.dark div.gap-chirp-text.padding-v--4.padding-h--16 {
+    background-color: $selection !important;
+  }
+  article.stream-item.js-stream-item.is-draggable.is-actionable {
+    margin: 0.1875rem 0rem !important;
+  }
+  // ** remove bg video icon
+  a.js-gif-pause.is-actionable.gif-pause {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  .video-overlay {
+    line-height: 0.8 !important;
+  }
+  .icon-twitter-blue-color {
+    color: $purple !important;
+  }
+  /*video icon */
+  i.icon.icon-play-video,
+  i.video-overlay.icon-with-bg-round,
+  i.icon.icon-bg-dot.icon-twitter-blue-color,
+  div.video-overlay.icon-with-bg-round {
+    background-color: rgba(0, 0, 0, 0) !important;
+    cursor: pointer !important;
+  }
 }
 
 /* media size */
 
 html.dark {
-	.media-size-small,
-	a.js-media-image-link.block.med-link.media-item.media-size-small.is-zoomable {
-		width: 100% !important;
-		height: 9.375rem !important;
-	}
+  .media-size-small,
+  a.js-media-image-link.block.med-link.media-item.media-size-small.is-zoomable {
+    width: 100% !important;
+    height: 9.375rem !important;
+  }
 }

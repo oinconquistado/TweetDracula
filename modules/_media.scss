@@ -1,21 +1,21 @@
 html.dark {
-	/* medium media */
-	div.js-preferences-summary.facet-subtitle.padding-t--3.padding-r--12.padding-l--36.nbfc {
-		color: $yellow !important;
-	}
-	/*video icon */
+  /* medium media */
+  div.js-preferences-summary.facet-subtitle.padding-t--3.padding-r--12.padding-l--36.nbfc {
+    color: $yellow !important;
+  }
+  /*video icon */
 
-	.icon.icon-play-video,
-	i.video-overlay.icon-with-bg-round,
-	i.icon.icon-bg-dot.icon-twitter-blue-color,
-	div.video-overlay.icon-with-bg-round {
-		background-color: rgba(0, 0, 0, 0) !important;
-		cursor: pointer !important;
-	}
-	/* media size */
-	.media-size-small,
-	a.js-media-image-link.block.med-link.media-item.media-size-small.is-zoomable {
-		width: 100% !important;
-		height: 9.375rem !important;
-	}
+  .icon.icon-play-video,
+  i.video-overlay.icon-with-bg-round,
+  i.icon.icon-bg-dot.icon-twitter-blue-color,
+  div.video-overlay.icon-with-bg-round {
+    background-color: rgba(0, 0, 0, 0) !important;
+    cursor: pointer !important;
+  }
+  /* media size */
+  .media-size-small,
+  a.js-media-image-link.block.med-link.media-item.media-size-small.is-zoomable {
+    width: 100% !important;
+    height: 9.375rem !important;
+  }
 }
