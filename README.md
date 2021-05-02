@@ -10,8 +10,6 @@ Support us:
 
 🧛🏻 **Original Dracula Theme Project:** https://github.com/dracula/dracula-theme.
 
-[Duck Duck Go](https://duckduckgo.com)
-
 ### 🔸 How install:
 
 1. Install [Stylish](http://bit.ly/stylish-chrome) or [Stylus](http://bit.ly/stylus-chrome) on your browser.
