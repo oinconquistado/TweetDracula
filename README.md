@@ -1,6 +1,7 @@
 # 🧛🏻‍♂️ tweetDracula
 
-🧛🏻 **Original Dracula Theme Project:** https://github.com/dracula/dracula-theme.
+TweetDracula is a visual style for [**TweetDeck**](https://tweetdeck.twitter.com) based on the famous [**Dracula theme**](https://github.com/dracula/dracula-theme).
+
 
 ### 🔸 How install:
 
@@ -13,8 +14,8 @@
 
 1. Install [Stylish](http://bit.ly/stylish-chrome) or [Stylus](http://bit.ly/stylus-chrome) on your browser.
 2. Create new style.
-3. Download my css ([style.css](https://raw.githubusercontent.com/oinconquistado/tweetDracula/main/style.css)), copy and paste in your style.
-4. Define the scope for style (domain https://tweetdeck.twitter.com
+3. Download my css ([style.css](https://raw.githubusercontent.com/oinconquistado/tweetDracula/main/style.css)), copy and paste in your new style.
+4. Define the scope for style (set domain https://tweetdeck.twitter.com
    )
 5. Enjoy.
 
