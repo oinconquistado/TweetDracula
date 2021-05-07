@@ -1,37 +1,37 @@
 // TODO quoted twitter
 
 html.dark {
-  .br--14,
-  a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable {
-    border-radius: 0.125rem !important;
-  }
-  p.js-quoted-tweet-text.with-linebreaks {
-    margin: 0.625rem 0rem !important;
-  }
-  div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable {
-    padding: 1.5625rem 1.25rem !important;
-    background-color: $selection !important;
-  }
+	.br--14,
+	a.js-media-image-link.block.med-link.media-item.media-size-medium.is-zoomable {
+		border-radius: 0.125rem !important;
+	}
+	p.js-quoted-tweet-text.with-linebreaks {
+		margin: 0.625rem 0rem !important;
+	}
+	div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable {
+		padding: 1.5625rem 1.25rem !important;
+		background-color: $selection !important;
+	}
 }
 
 html.dark {
-  div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
-    > div,
-  div.js-reply-info-container *,
-  div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
-    > div
-    > header,
-  div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
-    > div
-    > header
-    *,
-  div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
-    > div
-    > p,
-  div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
-    > div
-    > p
-    * {
-    background-color: $selection !important;
-  }
+	div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
+		> div,
+	div.js-reply-info-container *,
+	div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
+		> div
+		> header,
+	div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
+		> div
+		> header
+		*,
+	div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
+		> div
+		> p,
+	div.js-quote-detail.quoted-tweet.nbfc.br--14.padding-al.margin-b--8.position-rel.margin-tm.is-actionable
+		> div
+		> p
+		* {
+		background-color: $selection !important;
+	}
 }
