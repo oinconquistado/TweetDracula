@@ -1,74 +1,75 @@
 html.dark {
-  /* all links */
-  a,
-  a *,
-  a > * {
-    text-decoration: none !important;
-    font-weight: normal !important;
-  }
+	/* all links */
+	a,
+	a *,
+	a > * {
+		text-decoration: none !important;
+		font-weight: normal !important;
+	}
 
-  ul.js-tweet-actions.tweet-actions.full-width > li > a > i,
-  ul.js-tweet-actions.tweet-actions.full-width > li > a > span {
-    color: $gray;
-  }
-  /* name color */
-  .account-inline .fullname {
-    color: $green !important;
-  }
-  /*  username color */
-  .account-inline .username,
-  .username.txt-mute {
-    color: $orange !important;
-    &:hover {
-      color: cyan !important;
-    }
-  }
-  /* user has retweeted */
-  .nbfc {
-    a {
-      color: $purple !important;
-      &:hover {
-        color: $pink !important;
-      }
-    }
-  }
-  /* "Replying to" text */
-  .other-replies.txt-ellipsis,
+	ul.js-tweet-actions.tweet-actions.full-width > li > a > i,
+	ul.js-tweet-actions.tweet-actions.full-width > li > a > span {
+		color: $gray;
+	}
+	/* name color */
+	.account-inline .fullname {
+		color: $green !important;
+	}
+	/*  username color */
+	.account-inline .username,
+	.username.txt-mute,
+	.username.txt-ellipsis.inline-block.txt-size--12 {
+		color: $orange !important;
+		&:hover {
+			color: cyan !important;
+		}
+	}
+	/* user has retweeted */
+	.nbfc {
+		a {
+			color: $purple !important;
+			&:hover {
+				color: $pink !important;
+			}
+		}
+	}
+	/* "Replying to" text */
+	.other-replies.txt-ellipsis,
 	/* translate tweet color */
 	.js-translate-call-to-action.txt-mute, {
-    color: $pink !important;
-  }
-  /* "Replying to" users */
-  .other-replies.txt-ellipsis > a {
-    color: $orange !important;
-    &:hover {
-      color: $cyan !important;
-    }
-  }
-  /* green text */
-  .link-complex-target,
-  .link-complex > span,
-  span.column-heading {
-    color: $green !important;
-  }
-  /* time */
-  time > span {
-    color: $purple !important;
-    &:hover {
-      color: $cyan !important;
-    }
-  }
-  time > a {
-    color: $pink !important;
-    &:hover {
-      color: $orange !important;
-    }
-  }
-  /* external link */
-  .url-ext {
-    color: $purple !important;
-    &:hover {
-      color: $pink !important;
-    }
-  }
+		color: $pink !important;
+	}
+	/* "Replying to" users */
+	.other-replies.txt-ellipsis > a {
+		color: $orange !important;
+		&:hover {
+			color: $cyan !important;
+		}
+	}
+	/* green text */
+	.link-complex-target,
+	.link-complex > span,
+	span.column-heading {
+		color: $green !important;
+	}
+	/* time */
+	time > span {
+		color: $purple !important;
+		&:hover {
+			color: $cyan !important;
+		}
+	}
+	time > a {
+		color: $pink !important;
+		&:hover {
+			color: $orange !important;
+		}
+	}
+	/* external link */
+	.url-ext {
+		color: $purple !important;
+		&:hover {
+			color: $pink !important;
+		}
+	}
 }

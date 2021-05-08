@@ -1,92 +1,97 @@
 // TODO: username within parentheses
 
 html.dark {
-  span.username.txt-mute::before,
-  a.js-other-replies-link.other-replies-link::before,
-  span.username::before {
-    content: "(";
-    color: $orange !important;
-  }
-  span.username.txt-mute::after,
-  a.js-other-replies-link.other-replies-link::after,
-  span.username::after {
-    content: ")";
-    color: $orange !important;
-  }
+	span.username.txt-mute::before,
+	a.js-other-replies-link.other-replies-link::before,
+	span.username::before {
+		content: '(';
+		color: $orange !important;
+	}
+	span.username.txt-mute::after,
+	a.js-other-replies-link.other-replies-link::after,
+	span.username::after {
+		content: ')';
+		color: $orange !important;
+	}
 }
 
 // TODO: format user card
 
 html.dark {
-  // ** avatar */
+	// ** avatar */
 
-  .avatar {
-    border-radius: 3.125rem !important;
-  }
-  // ** image header
+	.avatar {
+		border-radius: 3.125rem !important;
+	}
+	// ** image header
 
-  .account-profile-header {
-    opacity: 0% !important;
-  }
+	.account-profile-header {
+		opacity: 0% !important;
+	}
 
-  div.prf-header {
-    background-size: 0rem !important;
-  }
+	div.prf-header {
+		background-size: 0rem !important;
+	}
 
-  // ** profile card width
+	// ** profile card width
 
-  div.width-p--85.margin-a-auto.position-rel.padding-b--20 {
-    width: 100% !important;
-  }
+	div.width-p--85.margin-a-auto.position-rel.padding-b--20 {
+		width: 100% !important;
+	}
 
-  // ** div bar of card
+	// ** div bar of card
 
-  div.prf-header-inner-overlay {
-    background-color: $purple !important;
-  }
-  ul.lst-profile.cf li.js-item-launch {
-    height: 4.375rem !important;
-  }
+	div.prf-header-inner-overlay {
+		background-color: $purple !important;
+	}
+	ul.lst-profile.cf li.js-item-launch {
+		height: 4.375rem !important;
+	}
 }
 
 // TODO: tweet card
 
 html.dark p.js-tweet-text.tweet-text.with-linebreaks {
-  padding-top: 0.125rem !important;
-  width: 90% !important;
+	padding-top: 0.125rem !important;
+	width: 90% !important;
 }
 
 /* response padding */
 
 html.dark {
-  div.other-replies.txt-ellipsis {
-    padding-bottom: 0.625rem !important;
-  }
-  .item-box-full-bleed {
-    margin: 0 0rem 1.25rem !important;
-  }
-  div.js-app-columns.app-columns.horizontal-flow-container.without-tweet-drag-handles:nth-child(3) {
-    color: $green !important;
-  }
+	div.other-replies.txt-ellipsis {
+		padding-bottom: 0.625rem !important;
+	}
+	.item-box-full-bleed {
+		margin: 0 0rem 1.25rem !important;
+	}
+	div.js-app-columns.app-columns.horizontal-flow-container.without-tweet-drag-handles:nth-child(3) {
+		color: $green !important;
+	}
 }
 
 // TODO: Small Spinner
 
 html.dark {
-  .spinner-small {
-    margin-top: 50px;
-    height: 32px;
-    width: 32px;
-    background: url(https://raw.githubusercontent.com/oinconquistado/tweetDracula/main/images/spinner-small.gif?raw=true)
-      no-repeat 100% 100%;
-  }
-  .js-column-loading-placeholder {
-    font-size: 0px;
-  }
-  // TODO:
+	.spinner-small {
+		margin-top: 50px;
+		height: 32px;
+		width: 32px;
+		background: url(https://raw.githubusercontent.com/oinconquistado/tweetDracula/main/images/spinner-small.gif?raw=true)
+			no-repeat 100% 100%;
+	}
+	.js-column-loading-placeholder {
+		font-size: 0px;
+	}
+	// TODO:
 
-  /* floating window */
-  .pos-l .caret {
-    width: 0px !important;
-  }
+	/* floating window */
+	.pos-l .caret {
+		width: 0px !important;
+	}
+
+	/* close button */
+	.icon.icon-close:hover {
+		color: $red !important;
+	}
 }

@@ -1,19 +1,19 @@
-// *! ícones das configurações
+// *! config selectors
 
 html.dark {
-  i.js-streaming-updates.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
-  i.js-show-startup-notifications.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
-  i.js-display-sensitive-media.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
-  i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off {
-    color: $red !important;
-  }
-  i.js-streaming-updates.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
-  i.js-show-startup-notifications.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
-  i.js-display-sensitive-media.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
-  i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on {
-    color: $cyan !important;
-  }
-	/* add columns icon */
+	i.js-streaming-updates.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
+	i.js-show-startup-notifications.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
+	i.js-display-sensitive-media.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off,
+	i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-off {
+		color: $red !important;
+	}
+	i.js-streaming-updates.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
+	i.js-show-startup-notifications.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
+	i.js-display-sensitive-media.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on,
+	i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on {
+		color: $cyan !important;
+	}
+	/* columns panel - icon colors */
 	li.js-item-launch:hover {
 		color: $purple !important;
 	}
