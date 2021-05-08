@@ -2,7 +2,6 @@
 
 TweetDracula is a visual style for [**TweetDeck**](https://tweetdeck.twitter.com) based on the famous [**Dracula theme**](https://github.com/dracula/dracula-theme).
 
-
 ### 🔸 How install:
 
 1. Install [Stylish](http://bit.ly/stylish-chrome) or [Stylus](http://bit.ly/stylus-chrome) on your browser.

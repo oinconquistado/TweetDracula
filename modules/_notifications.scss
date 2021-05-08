@@ -24,3 +24,12 @@ html.dark {
     color: $gray !important;
   }
 }
+// TODO: color of background notification
+
+.NotificationList,
+.Notification-body,
+.Notification,
+.Notification-inner {
+  color: white !important;
+  border-radius: 0.5em;
+}
