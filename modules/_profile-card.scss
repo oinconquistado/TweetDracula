@@ -1,25 +1,25 @@
 /* profile card */
 
 html.dark {
-  button.js-action-profile.action-text.thats-you-text.btn-on-dark {
-    color: $purple !important;
-    &:hover {
-      color: $red !important;
-    }
-  }
-  ul.prf-stats li a strong {
-    color: $cyan !important;
-  }
-  .prf .lst-profile a:hover i {
-    color: $yellow !important;
-  }
-  i.Icon.icon-more {
-    color: $pink !important;
-  }
+	button.js-action-profile.action-text.thats-you-text.btn-on-dark {
+		color: $purple !important;
+		&:hover {
+			color: $red !important;
+		}
+	}
+	ul.prf-stats li a strong {
+		color: $cyan !important;
+	}
+	.prf .lst-profile a:hover i {
+		color: $purple !important;
+	}
+	i.Icon.icon-more:hover {
+		color: $pink !important;
+	}
 
-  button.btn-on-dark {
-    &:focus {
-      box-shadow: 0 0 0 0.125rem #10171e, 0 0 0 0.25rem $purple-border !important;
-    }
-  }
+	button.btn-on-dark {
+		&:focus {
+			box-shadow: 0 0 0 0.125rem #10171e, 0 0 0 0.25rem $purple-border !important;
+		}
+	}
 }

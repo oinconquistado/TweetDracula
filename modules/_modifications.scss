@@ -47,6 +47,10 @@ html.dark {
 	ul.lst-profile.cf li.js-item-launch {
 		height: 4.375rem !important;
 	}
+	/* hover text */
+	ul.prf-stats li a:hover {
+		color: $yellow !important;
+	}
 }
 
 // TODO: tweet card
