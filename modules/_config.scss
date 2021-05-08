@@ -13,4 +13,11 @@ html.dark {
   i.js-auto-play-gifs.icon.icon-small.color-twitter-blue.js-toggle-switch.is-actionable.align-top.icon-toggle-on {
     color: $cyan !important;
   }
+	/* add columns icon */
+	li.js-item-launch:hover {
+		color: $purple !important;
+	}
+	li.js-item-launch * {
+		color: inherit !important;
+	}
 }
