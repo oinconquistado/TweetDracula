@@ -99,3 +99,11 @@ html.dark {
 		color: $red !important;
 	}
 }
+
+html.dark {
+	input:focus {
+		border-color: #d9c2fa !important;
+		color: #d9c2fa !important;
+		box-shadow: none;
+	}
+}
