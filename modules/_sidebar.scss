@@ -1,18 +1,18 @@
 html.dark
-  header.js-drag-handle.padding-a--12.no-collapse.mdl-header.is-movable.mdl-header-divider {
-  padding: 0.625rem !important;
-  margin: 0.625rem !important;
+	header.js-drag-handle.padding-a--12.no-collapse.mdl-header.is-movable.mdl-header-divider {
+	padding: 0.625rem !important;
+	margin: 0.625rem !important;
 
-  /* Compose Button */
-  button.js-show-drawer.js-show-tip.Button.Button--primary.Button--large.tweet-button.margin-t--8.margin-b--10:hover,
-  i.Icon.icon-compose:hover,
-  button.js-show-drawer.js-show-tip.Button.Button--primary.Button--large.tweet-button.margin-t--8.margin-b--10.is-hidden.hover,
-  button.js-hide-drawer.margin-t--8.margin-b--10.Button.Button--primary.Button--large.tweet-button.txt-left:hover,
-  button.js-add-image-button.js-show-tip.needsclick.btn.btn-on-blue.full-width.txt-left.margin-b--12.padding-v--6.padding-h--12:hover,
-  button.js-schedule-button.js-show-tip.btn.btn-on-blue.full-width.txt-left.margin-b--12.padding-v--6.padding-h--12:hover,
-  button.js-dm-button.js-show-tip.btn.btn-on-blue.full-width.txt-left.padding-v--6.padding-h--12.margin-b--12:hover {
-    background-color: $purple !important;
-  }
+	/* Compose Button */
+	button.js-show-drawer.js-show-tip.Button.Button--primary.Button--large.tweet-button.margin-t--8.margin-b--10:hover,
+	i.Icon.icon-compose:hover,
+	button.js-show-drawer.js-show-tip.Button.Button--primary.Button--large.tweet-button.margin-t--8.margin-b--10.is-hidden.hover,
+	button.js-hide-drawer.margin-t--8.margin-b--10.Button.Button--primary.Button--large.tweet-button.txt-left:hover,
+	button.js-add-image-button.js-show-tip.needsclick.btn.btn-on-blue.full-width.txt-left.margin-b--12.padding-v--6.padding-h--12:hover,
+	button.js-schedule-button.js-show-tip.btn.btn-on-blue.full-width.txt-left.margin-b--12.padding-v--6.padding-h--12:hover,
+	button.js-dm-button.js-show-tip.btn.btn-on-blue.full-width.txt-left.padding-v--6.padding-h--12.margin-b--12:hover {
+		background-color: $purple !important;
+	}
 	/* search on sidebar */
 	.js-app-search-input.app-search-input.search-input,
 	.js-perform-search.txt-size--14.search-input-perform-search,
