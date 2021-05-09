@@ -53,6 +53,9 @@ html.dark {
 		box-shadow: 0 0 0.125rem 0.1875rem $foreground !important;
 		outline: 0 !important;
 	}
+	.Icon.icon-camera.txt-size--18 {
+		background-color: inherit !important;
+	}
 
 	/* compose icon */
 
@@ -69,12 +72,32 @@ html.dark {
 		color: $cyan !important;
 	}
 
-	/* Dm-Box config  */
+	/* DM-Box config  */
 	js-reply-tweetbox {
 		background-color: #44475a !important;
 	}
 	.rpl textarea {
 		height: 100%;
 		overflow-y: hidden;
+	}
+	/* char count */
+	.stroke-twitter-blue {
+		stroke: $purple !important;
+		stroke-width: 2;
+	}
+	.stroke-twitter-yellow {
+		stroke: $red !important;
+		stroke-width: 2;
+	}
+
+	/* account check */
+	.icon.icon-check.txt-size--12 {
+		background-color: transparent !important;
+	}
+	.compose-account-selected {
+		background-color: $purple !important;
+	}
+	.is-selected.compose-account:focus .compose-account-img {
+		box-shadow: 0 0 2px 3px $purple;
 	}
 }
