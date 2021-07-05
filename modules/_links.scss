@@ -49,7 +49,8 @@ html.dark {
 	/* green text */
 	.link-complex-target,
 	.link-complex > span,
-	span.column-heading {
+	span.column-heading,
+	.margin-t--4.margin-b---3.txt-mute {
 		color: $green !important;
 	}
 	/* time */
@@ -72,4 +73,5 @@ html.dark {
 			color: $pink !important;
 		}
 	}
+	
 }

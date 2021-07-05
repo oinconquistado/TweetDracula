@@ -1,0 +1,20 @@
+{
+	"name": "tweetdracula",
+	"version": "1.0.0",
+	"description": "TweetDracula is a visual style for [**TweetDeck**](https://tweetdeck.twitter.com) based on the famous [**Dracula theme**](https://github.com/dracula/dracula-theme).",
+	"main": "index.js",
+	"scripts": {
+		"sass-dev": "sass ./style.scss ./style.css --style=compressed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oinconquistado/tweetDracula.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/oinconquistado/tweetDracula/issues"
+	},
+	"homepage": "https://github.com/oinconquistado/tweetDracula#readme"
+}
