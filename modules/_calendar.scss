@@ -1,21 +1,20 @@
 html.dark {
-	#caldays > span {
-		color: $purple !important;
-		font-weight: bold;
-	}
-	#calweeks * {
-		color: $yellow !important;
-	}
-	a.caldisabled {
-		background-color: $selection !important;
-	}
-	.caret {
-		visibility: hidden;
-	}
-}
-
-html.dark #scheduled-hour,
-#scheduled-minute,
-#amPm {
-	color: $foreground !important;
+  #caldays > span {
+    color: $purple !important;
+    font-weight: bold;
+  }
+  #calweeks * {
+    color: $yellow !important;
+  }
+  a.caldisabled {
+    background-color: $selection !important;
+  }
+  .caret {
+    visibility: hidden;
+  }
+  #scheduled-hour,
+  #scheduled-minute,
+  #amPm {
+    color: $foreground !important;
+  }
 }

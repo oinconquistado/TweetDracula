@@ -1,103 +1,103 @@
 html.dark {
-	/* select account compose */
+  /* select account compose */
 
-	i.icon.icon-check.txt-size--12.color-twitter-white {
-		background-color: $pink !important;
-		border: 0.125rem solid $pink !important;
-		padding: 0rem 0.1875rem 0.375rem 0.1875rem !important;
-		border-radius: 1.5625rem !important;
-	}
+  i.icon.icon-check.txt-size--12.color-twitter-white {
+    background-color: $pink !important;
+    border: 0.125rem solid $pink !important;
+    padding: 0rem 0.1875rem 0.375rem 0.1875rem !important;
+    border-radius: 1.5625rem !important;
+  }
 
-	/* tweet button */
+  /* tweet button */
 
-	button.js-send-button.js-spinner-button.js-show-tip.Button--primary.btn-extra-height.padding-v--6.padding-h--12.is-disabled,
-	button.js-send-button.js-spinner-button.js-show-tip.Button--primary.btn-extra-height.padding-v--6.padding-h--12 {
-		background-color: $purple !important;
-		color: $foreground !important;
-		border: 0rem !important;
-	}
+  button.js-send-button.js-spinner-button.js-show-tip.Button--primary.btn-extra-height.padding-v--6.padding-h--12.is-disabled,
+  button.js-send-button.js-spinner-button.js-show-tip.Button--primary.btn-extra-height.padding-v--6.padding-h--12 {
+    background-color: $purple !important;
+    color: $foreground !important;
+    border: 0rem !important;
+  }
 
-	/* response text-area and compose */
+  /* response text-area and compose */
 
-	.inline-reply .compose-text,
-	textarea.js-compose-text.compose-text.bg-color-twitter-white.txt-size--14.scroll-v.scroll-styled-v.scroll-styled-h.scroll-alt.padding-a--0 {
-		padding: 0.625rem !important;
-		color: $background !important;
-	}
+  .inline-reply .compose-text,
+  textarea.js-compose-text.compose-text.bg-color-twitter-white.txt-size--14.scroll-v.scroll-styled-v.scroll-styled-h.scroll-alt.padding-a--0 {
+    padding: 0.625rem !important;
+    color: $background !important;
+  }
 
-	strong.fullname {
-		color: $green !important;
-		font-weight: normal;
-	}
+  strong.fullname {
+    color: $green !important;
+    font-weight: normal;
+  }
 
-	.other-replies.txt-ellipsis,
-	a.js-other-replies-link.other-replies-link {
-		background-color: inherit !important;
-	}
+  .other-replies.txt-ellipsis,
+  a.js-other-replies-link.other-replies-link {
+    background-color: inherit !important;
+  }
 
-	/* text add image */
+  /* text add image */
 
-	span.js-add-image-button-label.label.padding-ls,
-	span.js-schedule-button-label.label.padding-ls,
-	span.label.padding-ls,
-	span.label.margin-an {
-		background-color: inherit !important;
-	}
+  span.js-add-image-button-label.label.padding-ls,
+  span.js-schedule-button-label.label.padding-ls,
+  span.label.padding-ls,
+  span.label.margin-an {
+    background-color: inherit !important;
+  }
 
-	/* add image on focus */
+  /* add image on focus */
 
-	*.btn-on-blue:focus {
-		color: #fff !important;
-		border-color: transparent !important;
-		background-color: #8899a6 !important;
-		box-shadow: 0 0 0.125rem 0.1875rem $foreground !important;
-		outline: 0 !important;
-	}
-	.Icon.icon-camera.txt-size--18 {
-		background-color: inherit !important;
-	}
+  *.btn-on-blue:focus {
+    color: #fff !important;
+    border-color: transparent !important;
+    background-color: #8899a6 !important;
+    box-shadow: 0 0 0.125rem 0.1875rem $foreground !important;
+    outline: 0 !important;
+  }
+  .Icon.icon-camera.txt-size--18 {
+    background-color: inherit !important;
+  }
 
-	/* compose icon */
+  /* compose icon */
 
-	i.Icon.icon-compose,
-	i.Icon.icon-schedule.txt-size--18,
-	i.Icon.icon-message.txt-size--18,
-	button.js-hide-drawer.margin-t--8.margin-b--10.Button.Button--primary.Button--large.tweet-button.txt-left {
-		background-color: inherit !important;
-	}
+  i.Icon.icon-compose,
+  i.Icon.icon-schedule.txt-size--18,
+  i.Icon.icon-message.txt-size--18,
+  button.js-hide-drawer.margin-t--8.margin-b--10.Button.Button--primary.Button--large.tweet-button.txt-left {
+    background-color: inherit !important;
+  }
 
-	/* Stay open */
+  /* Stay open */
 
-	label.checkbox.checkbox-reversed.compose-remember-state.margin-a--15.txt-right {
-		color: $cyan !important;
-	}
+  label.checkbox.checkbox-reversed.compose-remember-state.margin-a--15.txt-right {
+    color: $cyan !important;
+  }
 
-	/* DM-Box config  */
-	js-reply-tweetbox {
-		background-color: #44475a !important;
-	}
-	.rpl textarea {
-		height: 100%;
-		overflow-y: hidden;
-	}
-	/* char count */
-	.stroke-twitter-blue {
-		stroke: $purple !important;
-		stroke-width: 2;
-	}
-	.stroke-twitter-yellow {
-		stroke: $red !important;
-		stroke-width: 2;
-	}
+  /* DM-Box config  */
+  js-reply-tweetbox {
+    background-color: #44475a !important;
+  }
+  .rpl textarea {
+    height: 100%;
+    overflow-y: hidden;
+  }
+  /* char count */
+  .stroke-twitter-blue {
+    stroke: $purple !important;
+    stroke-width: 2;
+  }
+  .stroke-twitter-yellow {
+    stroke: $red !important;
+    stroke-width: 2;
+  }
 
-	/* account check */
-	.icon.icon-check.txt-size--12 {
-		background-color: transparent !important;
-	}
-	.compose-account-selected {
-		background-color: $purple !important;
-	}
-	.is-selected.compose-account:focus .compose-account-img {
-		box-shadow: 0 0 2px 3px $purple;
-	}
+  /* account check */
+  .icon.icon-check.txt-size--12 {
+    background-color: transparent !important;
+  }
+  .compose-account-selected {
+    background-color: $purple !important;
+  }
+  .is-selected.compose-account:focus .compose-account-img {
+    box-shadow: 0 0 2px 3px $purple;
+  }
 }

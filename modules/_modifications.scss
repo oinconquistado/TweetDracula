@@ -1,6 +1,6 @@
-// TODO: username within parentheses
-
 html.dark {
+	// TODO: username within parentheses
+
 	span.username.txt-mute::before,
 	a.js-other-replies-link.other-replies-link::before,
 	span.username::before {
@@ -13,11 +13,9 @@ html.dark {
 		content: ')';
 		color: $orange !important;
 	}
-}
 
-// TODO: format user card
+	// TODO: format user card
 
-html.dark {
 	// ** avatar */
 
 	.avatar {
@@ -51,18 +49,16 @@ html.dark {
 	ul.prf-stats li a:hover {
 		color: $yellow !important;
 	}
-}
 
-// TODO: tweet card
+	// TODO: tweet card
 
-html.dark p.js-tweet-text.tweet-text.with-linebreaks {
-	padding-top: 0.125rem !important;
-	width: 90% !important;
-}
+	p.js-tweet-text.tweet-text.with-linebreaks {
+		padding-top: 0.125rem !important;
+		width: 90% !important;
+	}
 
-/* response padding */
+	/* response padding */
 
-html.dark {
 	div.other-replies.txt-ellipsis {
 		padding-bottom: 0.625rem !important;
 	}
@@ -72,11 +68,9 @@ html.dark {
 	div.js-app-columns.app-columns.horizontal-flow-container.without-tweet-drag-handles:nth-child(3) {
 		color: $green !important;
 	}
-}
 
-// TODO: Small Spinner
+	// TODO: Small Spinner
 
-html.dark {
 	.spinner-small {
 		margin-top: 50px;
 		height: 32px;
@@ -98,9 +92,6 @@ html.dark {
 	.icon.icon-close:hover {
 		color: $red !important;
 	}
-}
-
-html.dark {
 	input:focus {
 		border-color: #d9c2fa !important;
 		color: #d9c2fa !important;

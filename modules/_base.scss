@@ -12,8 +12,7 @@ html.dark {
     color: $foreground;
     border: 0.0625rem $purple-border !important;
   }
-}
-
-html.dark .Notification-body {
-  color: $foreground;
+  .Notification-body {
+    color: $foreground;
+  }
 }

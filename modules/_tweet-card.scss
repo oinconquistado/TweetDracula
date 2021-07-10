@@ -1,15 +1,15 @@
 html.dark {
-	span.txt-size-variable--10 {
-		color: $purple !important;
-		height: 28.75rem !important;
-	}
+  span.txt-size-variable--10 {
+    color: $purple !important;
+    height: 28.75rem !important;
+  }
 
-	p.js-tweet-text.tweet-text.with-linebreaks {
-		line-height: 1.2;
-		padding: 8px 0px !important;
-	}
+  p.js-tweet-text.tweet-text.with-linebreaks {
+    line-height: 1.2;
+    padding: 8px 0px !important;
+  }
 
-	.js-detail-view-inline-text {
-		color: $purple !important;
-	}
+  .js-detail-view-inline-text {
+    color: $purple !important;
+  }
 }
